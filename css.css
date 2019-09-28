@@ -1,6 +1,32 @@
 #myShit {
-  background-color: blue;
-  color: red;
+  background-color: white;
+  color: black;
   padding: 20px;
   text-align: center;
+}
+
+.goals {
+  background-color: red;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align:
+  center;
+}
+
+th {
+  background-color: light-grey;
+}
+
+.introduction {
+  background-color: red;
 }
