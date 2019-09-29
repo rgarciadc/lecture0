@@ -30,3 +30,21 @@ th {
 .introduction {
   background-color: red;
 }
+
+@media (min-width: 500px) {
+  body {
+    background-color: white;
+  h1::before {
+    content: "Welcome to my Web Page!";
+  }
+  }
+}
+
+@media (max-width: 499px) {
+  body {
+    background-color: red;
+  h1::before {
+    content: "Welcome!";
+  }
+  }
+}
