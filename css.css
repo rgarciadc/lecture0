@@ -41,20 +41,7 @@ th {
   width: 200px;
 }
 
-@media (min-width: 500px) {
-  body {
-    background-color: white;
-  h1::before {
-    content: "Welcome to my Web Page!";
-  }
-  }
-}
-
-@media (max-width: 499px) {
-  body {
-    background-color: red;
-  h1::before {
-    content: "Welcome!";
-  }
-  }
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
 }
