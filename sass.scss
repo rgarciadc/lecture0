@@ -20,4 +20,16 @@ div {
     ul {
       color: $color;
     }
+
+    h1 {
+      color: $color;
+    }
+}
+
+.container-fluid {
+    font-size: 20px;
+}
+
+.container {
+  @extend .container-fluid;
 }
